@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.appointment-item {
+  padding: 15px 20px;
+  border: 1px solid #b5b7c4;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+  margin: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .appointment-item {
+    width: 100%;
+  }
+}
+
+.appointment-title {
+  color: #171f46;
+  font-size: 18px;
+  font-family: Roboto;
+  margin: 0;
+}
+
+.appointment-time {
+  color: #b5b7c4;
+  font-size: 16px;
+  font-family: Roboto;
+}
+
+.star-btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}

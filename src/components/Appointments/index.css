@@ -1,0 +1,133 @@
+/* Write your CSS here */
+.container {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.heading {
+  color: #171f46;
+  font-size: 25px;
+  font-family: Roboto;
+  margin-bottom: 25px;
+}
+
+.add-appointment-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #b5b7c4;
+  padding-bottom: 20px;
+}
+
+.appointments-img {
+  width: 30%;
+}
+
+.appointment-form-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+@media screen and (max-width: 767px) {
+  .appointments-img {
+    display: none;
+  }
+
+  .appointment-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.label {
+  color: #b5b7c4;
+  font-size: 13px;
+  font-family: Roboto;
+  margin-bottom: 10px;
+}
+
+.input {
+  height: 30px;
+  width: auto;
+  padding-left: 10px;
+  border-radius: 6px;
+}
+
+.submit-btn {
+  height: 25px;
+  width: 60px;
+  background-color: #8b5cf6;
+  color: #fff;
+  font-size: 14px;
+  font-family: Roboto;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.appoinments-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appointments-heading {
+  color: #171f46;
+  font-size: 20px;
+  font-family: Roboto;
+}
+
+.starred-text {
+  color: #9897f0;
+  font-size: 14px;
+  font-family: Roboto;
+  border: 1px solid #9897f0;
+  border-radius: 30px;
+  padding: 4px 8px;
+  background-color: transparent;
+}
+
+.starred-active {
+  background-color: #9897f0;
+  color: #fff;
+}
+
+.appointment-items-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.error {
+  color: #ff0000;
+  margin: 0;
+}
+
+.error-display {
+  display: none;
+}
